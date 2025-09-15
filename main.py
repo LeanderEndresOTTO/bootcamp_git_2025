@@ -27,7 +27,8 @@ def main():
 
 
 
-
+    print("Moin!")
+    print(f"{x} + {y} = {add(x, y)}")
 
 
 def add(x, y):
