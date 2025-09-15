@@ -2,6 +2,7 @@ def main():
     x = 2.0
     y = 4.0
 
+    print("Moin!")
     print(f"{x} + {y} = {add(x, y)}")
 
 
