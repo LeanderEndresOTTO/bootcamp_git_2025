@@ -2,11 +2,16 @@ def main():
     run = True
     while run == True:
         op = int(input("willst du addieren(1), subtrahieren(2), multiplizieren(3),dividieren(4) oder beenden(5)?"))
-        x = int(input("Enter a number 1: "))
-        y = int(input("Enter a number 2: "))
 
         if op == 5:
             run = False
+
+        else:
+            x = int(input("Enter a number 1: "))
+            y = int(input("Enter a number 2: "))
+
+        if op == 1:
+            print(f"{x} + {y} = {add(x, y)}")
 
         elif op == 2:
             print(f"{x} - {y} = {sub(x, y)}")
@@ -17,8 +22,7 @@ def main():
         elif op == 4:
             print(f"{x} / {y} = {div(x, y)}")
 
-        elif op == 1:
-            print(f"{x} + {y} = {add(x, y)}")
+
 
 
 
